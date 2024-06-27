@@ -19,7 +19,7 @@ interface MettingModalProps {
   className?: string;
   children?: ReactNode;
   handleClick?: () => void;
-  buttonText: string;
+  buttonText?: string;
   image?: string;
   buttonIcon?: string;
 }
